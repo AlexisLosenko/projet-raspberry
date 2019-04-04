@@ -1,0 +1,64 @@
+header {
+  background: url("../img/header.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+header .header_title {
+  text-align: center;
+  color: white;
+}
+
+header .header_title h1 {
+  font-size: 5em;
+  font-family: 'Kaushan Script', cursive;
+  color: #F0E68C;
+  text-shadow: 2px 2px #333;
+}
+
+header .header_title h2 {
+  font-size: 3em;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+header .header_title h3 {
+  font-size: 1em;
+  text-shadow: 2px 2px #333;
+}
+
+header:hover {
+  opacity: 0.9;
+}
+body {
+  background-color: #d1d1d1;
+}
+
+.container {
+  background-color: #fff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
