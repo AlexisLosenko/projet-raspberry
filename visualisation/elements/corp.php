@@ -18,8 +18,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-            <h1>Hackers poulettes</h1>
-           <!--Contenu-->
           <?php include './functions/routing.php';?>
             </div>
         </div>

@@ -4,7 +4,7 @@ require('./functions/user.php');
 <body>
     <main>
         <div class="col-md-12">
-            <img class="banniereContact" src="assets/image/fond-contact.jpg" alt="contact-us">
+            <img class="banniereContact" src="assets/image/fond-contact.jpg" alt="Bjour">
         </div>
         <div class="container">
             <div class="row">
@@ -13,8 +13,8 @@ require('./functions/user.php');
                     <h3>en remplissant ce formulaire</h3>
                     <p>Avez-vous des questions? s'il vous plait n'hésitez surtout pas a nous contacter directement. Notre équipe reviendra vers vous dés que possible.</p>
                     <p>Les données personnelles que vous fournissez dans le formulaire seront exclusivement utilisées pour le traitement de votre demande.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                
+
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" onsubmit="return verifyForm()">
                         <label for="bot" class="hide-robot">Bot</label>
                         <input name="bot" type="text" id="bot" class="hide-robot">
@@ -274,18 +274,21 @@ require('./functions/user.php');
                             <option value="Zambia">Zambia</option>
                             <option value="Zimbabwe">Zimbabwe</option>
                         </select>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                         <label for="choix">Choix du sujet :</label>
                         <select class="col-md-12" name="choix" id="choix">
                             <option value="autres">Autres</option>
-                            <option value="preco">Pré-commande des nouveau raspberry-Pi</option>
-                            <option value="problem">Probléme lors de la livraison</option>
-                            <option value="return">Retour de matériel pour cause de casse</option>
+                            <option value="disable">Malfonctionnement de l'appareil</option>
+                            <option value="livraison">soucis de livraison</option>
+                            <option value="engage">Je m'engage à quoi?</option>
                         </select>
                         <label for="message">Entrer votre message :</label>
                         <textarea class="form-control" id="message" name="message" placeholder="Votre message" rows="3"></textarea>
                         <p class="comment"><?php echo $messageError ?></p>
                         <p class="comment"><?php echo $send ?></p>
                         <button type="submit" class="btn col-md-12 fas fa-paper-plane"> Submit</button>
+
                     </form>
                 </div>
             </div>
