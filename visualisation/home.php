@@ -1,27 +1,18 @@
 <html>
 <body>
+    <link type="text/css" rel="stylesheet" href="./assets/css/home.css">
     <main>
 
-        <header>
-            <div class="buy">
-                <div class="row header_title">
-                    <div class="col align-self-center">
-                        <h1>A</h1>
-                        <h2>B</h2>
-                        <h3>B</h3>
+      <section class="first">
+            <div class="buydownload">
+                <div class="row">
+                    <div class="col-6">
+                        <h4>Raspberry buy</h4>
                     </div>
-                </div>
-            </div>
-        </header>
-
-          <!--Title_page-->
-          <section class="download">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4>A</h4>
-                        </div>
+                    <div class="col-6">
+                        <h4>Download</h4>
                     </div>
+                  </div>
                 </div>
             </section>
 
@@ -98,23 +89,18 @@
               </section>
 
 
-          <section class="formulaire">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4>A</h4>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="galerie">
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-md-12">
-                              <h4>A</h4>
+              <section class="Second">
+                    <div class="Formulrie">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Formulaire</h4>
+                            </div>
+                            <div class="col-6">
+                                <h4>Galerie</h4>
+                            </div>
                           </div>
-                      </div>
-                  </div>
-              </section>
+                        </div>
+                    </section>
+
       </body>
         </html>

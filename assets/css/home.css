@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background: #222;
+}
+h4 {
+  text-align: center;
+  color: #ccc;
+  font-size: 3rem;
+}
+p
+{
+  text-align: center;
+  color: #ddd;
+}
+.col-6 {
+  width: 100%;
+  padding: 8rem 0;
+}
+.col-6:nth-child(2) {
+  background-color: tomato;
+  transform: skewX(10deg);
+  }
