@@ -13,7 +13,7 @@ require('./functions/user.php');
                     <h3>en remplissant ce formulaire</h3>
                     <p>Avez-vous des questions? s'il vous plait n'hésitez surtout pas a nous contacter directement. Notre équipe reviendra vers vous dés que possible.</p>
                     <p>Les données personnelles que vous fournissez dans le formulaire seront exclusivement utilisées pour le traitement de votre demande.</p>
-                
+
 
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" onsubmit="return verifyForm()">
                         <label for="bot" class="hide-robot">Bot</label>
@@ -32,6 +32,8 @@ require('./functions/user.php');
                         <label for="email">Adresse Email :</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                         <p class="comment"><?php echo $emailError ?></p>
+                      </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                         <label for="country">Pays :</label>
                         <select class="col-md-12 bfh-countries" data-country="Belgium" name="country" id="country">
                             <option value="Afghanistan">Afghanistan</option>
@@ -274,8 +276,7 @@ require('./functions/user.php');
                             <option value="Zambia">Zambia</option>
                             <option value="Zimbabwe">Zimbabwe</option>
                         </select>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
+
                         <label for="choix">Choix du sujet :</label>
                         <select class="col-md-12" name="choix" id="choix">
                             <option value="autres">Autres</option>
