@@ -280,12 +280,12 @@ require('./functions/user.php');
 
                         <label for="choix">Choix du sujet :</label>
                         <select class="col-md-12" name="choix" id="choix">
-                            <option value="autres">Autres</option>
+                            <option value="autres">Autre</option>
                             <option value="disable">Malfonctionnement de l'appareil</option>
                             <option value="livraison">soucis de livraison</option>
                             <option value="engage">Je m'engage à quoi?</option>
                         </select>
-                        <label for="message">Entrer votre message :</label>
+                        <label for="message">Entrez votre message :</label>
                         <textarea class="form-control" id="message" name="message" placeholder="Votre message" rows="3"></textarea>
                         <p class="comment"><?php echo $messageError ?></p>
                         <p class="comment"><?php echo $send ?></p>
