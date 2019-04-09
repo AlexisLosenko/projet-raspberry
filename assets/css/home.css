@@ -1,10 +1,12 @@
 @font-face {
-  font-family: "Squirrel";
-  src: url("/font/Bellota-Regular-webfont.woff") format("woff");
+  font-family: 'bellota';
+  src: url('fonts/Bellota-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  font-family: "Squirrel";
+  font-family: 'bellota';
   background: #222;
 }
 h4 {
