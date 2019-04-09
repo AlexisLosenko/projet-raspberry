@@ -6,25 +6,39 @@
 }
 
 body {
-  font-family: 'bellota';
-  background: #222;
+background: #333;
+width: 100%;
 }
+
 h4 {
   text-align: center;
   color: #15c5bd;
-  font-size: 3rem;
+  font-size: 2.5rem;;
 }
+
 p
 {
   text-align: center;
   color: #ddd;
 }
+
 .col-6 {
   width: 100%;
   padding: 8rem 0;
 }
+
+.col-6:hover {
+  background-color: #7c7c7c;
+}
+
 .col-6:nth-child(2) {
-  background-color: #303030
-;
-  transform: skewX(10deg);
-  }
+  background-color: #303030;
+}
+
+.col-6:nth-child(2):hover {
+  background-color: #7c7c7c;
+}
+
+.container {
+  text-align: center;
+}

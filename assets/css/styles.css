@@ -7,10 +7,13 @@
 
 body {
 font-family: 'bellota';
+overflow-x: hidden;
 }
 
 footer {
-  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: #fff;
   color: #333;
