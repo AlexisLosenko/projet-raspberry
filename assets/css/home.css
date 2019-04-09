@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "Squirrel";
+  src: url("/font/Bellota-Regular-webfont.woff") format("woff");
+}
+
 body {
+  font-family: "Squirrel";
   background: #222;
 }
 h4 {
