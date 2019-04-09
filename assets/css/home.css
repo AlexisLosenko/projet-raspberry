@@ -11,7 +11,7 @@ body {
 }
 h4 {
   text-align: center;
-  color: #ccc;
+  color: #15c5bd;
   font-size: 3rem;
 }
 p
@@ -24,6 +24,7 @@ p
   padding: 8rem 0;
 }
 .col-6:nth-child(2) {
-  background-color: tomato;
+  background-color: #303030
+;
   transform: skewX(10deg);
   }
