@@ -1,5 +1,5 @@
 <?php
-$items = array('home','buy','download','education','Help me','news','project');
+$items = array('Home','Buy','Download','Education','Help me','News','Project');
 $link = 'http://localhost/projet-raspberry/index.php';
 function menu($array,$link){
     foreach($array as $val){

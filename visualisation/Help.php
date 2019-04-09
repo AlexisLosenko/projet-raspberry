@@ -12,7 +12,7 @@ require('./functions/user.php');
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h2>Contacter-nous</h2>
                     <h3>en remplissant ce formulaire</h3>
-                    <p>Avez-vous des questions? s'il vous plait n'hésitez surtout pas a nous contacter directement. Notre équipe reviendra vers vous dés que possible.</p>
+                    <p>Avez-vous des questions? S'il vous plaît n'hésitez surtout pas à nous contacter directement. Notre équipe reviendra vers vous dès que possible.</p>
                     <p>Les données personnelles que vous fournissez dans le formulaire seront exclusivement utilisées pour le traitement de votre demande.</p>
 
 
