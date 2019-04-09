@@ -2,6 +2,7 @@
 require('./functions/user.php');
 ?>
 <body>
+<link type="text/css" rel="stylesheet" href="./assets/css/form.css">
     <main>
         <div class="col-md-12">
             <img class="banniereContact" src="assets/image/fond-contact.jpg" alt="Bjour">

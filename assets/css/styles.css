@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Squirrel";
+  src: url("/font/Bellota-Regular-webfont.woff") format("woff");
+}
+
+body {
+  font-family: "Squirrel";
+}
+
 header {
   background: url("./img/header.jpg") no-repeat;
   background-attachment: fixed;
@@ -22,14 +31,13 @@ header .header_title {
 
 header .header_title h1 {
   font-size: 5em;
-  font-family: 'Kaushan Script', cursive;
   color: #F0E68C;
   text-shadow: 2px 2px #333;
 }
 
 header .header_title h2 {
   font-size: 3em;
-  font-family: 'Cinzel', serif;
+  
   color: white;
   text-shadow: 2px 2px #333;
 }

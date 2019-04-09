@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/normalize.css">
     <title>Raspberry</title>
 </head>
 
