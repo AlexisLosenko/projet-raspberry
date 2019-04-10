@@ -6,7 +6,7 @@ $lastname = $firstname = $email = $message = $send = "";
 //Permet également d'envoyer l'email à la fin il il renvoie "true"
 $isSuccess = false;
 //emailto me permet de définir l'adresse mail vers laquelle seront envoyés les mails provenant du formulaire de contact
-$emailTo = "Losenko.alexis@gmail.com";
+$emailTo = "losenko.alexis@gmail.com";
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
      //Variables ne rentrant pas dans les conditions de vérification ci-dessous
      $country = $_POST['country'];
